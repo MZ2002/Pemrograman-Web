@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>From Barang</title> 
+ </head> 
+ <body style="border: solid;"> 
+     <div style="display: flex; gap: 85px; border: solid; margin-left: 50px; margin-top: 30px; margin-bottom: 30px; margin-right: 60px; padding: 10px;"> 
+         <a href="">Home</a>
+         <a href="">Genarate Link</a>
+         <a href="">Transaction History</a> 
+         <a href="">Policy</a>
+         <a href="">Logout</a>
+     </div> 
+     <div style="display: flex;"> 
+         <div style="margin-left: 50px; margin-right: 20px;"> 
+             <img src="asset/foto.jpg" style="border: solid; width: 280px; height: 280px;"><br/> 
+             <input type="file">
+         </div> 
+         <form method="post"> 
+             <table style="float: left; width: 700px;"> 
+                 <tr> 
+                     <td><label for="there">Title Here :</label></td> 
+                     <td><input type="text" id="there" name="there" style="width: 300px;"></td> 
+                 </tr> 
+                 <tr> 
+                     <td style="vertical-align: top;"><label for="desc">Description :</label></td> 
+                     <td><input type="text" id="desc" name="desc" style="width: 300px; height: 100px;"></td> 
+                 </tr> 
+                 <tr> 
+                     <td><label for="anumber">Account Number :</label></td> 
+                     <td><input type="number" id="anumber" name="anumber" style="width: 300px;"></td> 
+                 </tr> 
+                 <tr> 
+                     <td><label for="bank">Bank :</label></td> 
+                     <td><select id="bank" name="bank" style="width: 200px"> 
+                         <option>BRI</option> 
+                         <option>Bank Mandiri</option> 
+                         <option>BNI</option> 
+                         <option>BTN</option> 
+                         <option>BCA</option> 
+                     </select>
+                    </td> 
+                 </tr> 
+                 <tr> 
+                     <td><label for="aholder">Account Holder</label></td> 
+                     <td><input type="text" id="aholder" name="aholder" style="width: 250px;"></td> 
+                 </tr> 
+                 <tr> 
+                     <td><label for="trans">Transaction</label></td> 
+                     <td><input type="number" id="trans" name="trans" min="1" max="3" style="width: 30px;"></td> 
+                 </tr> 
+                 <tr> 
+                     <td></td> 
+                     <td>*if the Transaction is for 3 person, Choose 3 form the drop-down list</td> 
+                 </tr> 
+                 <tr> 
+                     <td></td> 
+                     <td><input type="checkbox" id="send1" name="send1" value="phone"> 
+                     <label for="send1">Send to Mobile Phone</label></td> 
+                 </tr> 
+                 <tr> 
+                     <td></td> 
+                     <td><input type="checkbox" id="send2" name="send2" value="email"> 
+                     <label for="send2">Send to Email</label></td> 
+                 </tr> 
+                 <tr> 
+                     <td><label for="mphone">Send to Mobile Phone :</label></td> 
+                     <td><input type="number" id="mphone" name="mphone" style="width: 250px;"></td> 
+                 </tr> 
+                 <tr> 
+                     <td><label for="email">Send to Email :</label></td> 
+                     <td><input type="email" id="email" name="email" style="width: 250px;"></td> 
+                 </tr> 
+                 <tr> 
+                     <td></td> 
+                     <td><input type="submit" value="Generate Nobr Link" style="background-color: rgb(207, 150, 42);"></td>
+                     <a href="Checkout.html">
+                 </tr> 
+             </table> 
+         </form> 
+     </div> 
+ </body> 
+ </html> 
