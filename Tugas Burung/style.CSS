@@ -1,0 +1,31 @@
+header {
+    background-color: burlywood;
+    padding: 10px;
+}
+body {
+    background-color: blanchedalmond;
+}
+.t1 {
+    text-align: center;
+    color: blue;
+}
+.to {
+    text-align: center;
+    background-color: bisque;
+}
+
+.t2 {
+    text-align: center;
+}
+.t2 ul li {
+    list-style-type: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.t4 {
+    text-align: center;
+    background-color: blanchedalmond;
+}
