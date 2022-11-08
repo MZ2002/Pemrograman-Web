@@ -1,0 +1,27 @@
+
+.A1 {background-color: lightgreen;
+    margin: 20px 20px;
+    table-layout: auto;width: 1261px;height: 90px;
+    border: 2px solid black;}
+    
+.A2 {background-color: orange;
+    margin: 1px 20px;
+    table-layout: auto;width: 1000px;height: 200px;
+    border: 2px solid black;
+    float: right;}
+    
+.A3 {background-color: yellow;
+    margin: 20px;
+    table-layout: auto;width: 200px;height: 200px;
+    border: 2px solid black;}
+    
+.A4 {background-color: skyblue;
+    margin: 1px 20px;
+    table-layout: auto;width: 1000px;height: 200px;
+    border: 2px solid black;
+    float: right;}
+
+.A5 {background-color: yellow;
+        margin: 20px;
+        table-layout: auto;width: 200px;height: 200px;
+        border: 2px solid black;}
