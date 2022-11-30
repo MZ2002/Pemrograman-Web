@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kurs rupiah</title>
+</head>
+<body>
+
+    <h2>dolar to rupiah</h2>
+    <h4>nilai kurs rupiah = Rp. 14.650</h4>
+    <label for="dolar">dolar = </label>
+    <input type="number" id="dolar">
+    <br>
+    <span id="hasil"></span>
+    <br>
+    <button type="button" onclick="hitung_dolar()">hitung</button>
+
+    <script>
+
+        function hitung_dolar(){
+            let rp = 14650;
+            let d = document.getElementById("dolar").value;
+            let h = d*rp;
+            document.getElementById("hasil").innerHTML = "hasil =Rp." + h; 
+        }
+    </script>
+    
+</body>
+</html>
