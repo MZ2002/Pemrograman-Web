@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: aquamarine;
+    height:15vh;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+}
+
+article{
+    flex: 3;
+    order: 1;
+}
+
+aside{
+    flex: 1;
+    background-color: bisque;
+}
+nav{
+    flex: 1;
+    background-color: yellowgreen;
+    order: 1;
+}
+footer{
+    height: 15vh;
+    background-color: aquamarine;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
